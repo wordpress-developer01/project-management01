@@ -1,0 +1,33 @@
+// Массив mock задач — импортируйте в компоненты для разработки frontend-first
+export const tasks = [
+  {
+    id: 1,
+    title: "Design header",
+    description: "Create header layout",
+    status: "To Do",
+    priority: "High",
+    tags: "ui,frontend",
+    startDate: "2026-03-01",
+    dueDate: "2026-03-10",
+    points: 3,
+    projectId: 45,
+    assignee: { userId: 7, username: "alex" },
+    comments: [],
+    attachments: [],
+  },
+  {
+    id: 2,
+    title: "Implement auth",
+    description: "Setup JWT auth flow",
+    status: "Work In Progress",
+    priority: "Urgent",
+    tags: "backend,auth",
+    startDate: "2026-03-02",
+    dueDate: "2026-03-08",
+    points: 5,
+    projectId: 45,
+    assignee: { userId: 8, username: "maria" },
+    comments: [],
+    attachments: [],
+  },
+];
